@@ -23,10 +23,8 @@ class Owner
   end
 
   def species
-    self.new(name)
+    owner = self.new(name)
     @species = nil
-
-
   end
 
 
