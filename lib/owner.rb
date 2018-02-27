@@ -5,8 +5,8 @@ class Owner
 
   @@all = []
 
-  def initialize
-    # @name = name
+  def initialize(name)
+    @name = name
     @@all << self
   end
 
