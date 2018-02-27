@@ -59,8 +59,8 @@ class Owner
     @pets = []
   end
 
-  def self.list_pets
-
+  def list_pets
+    puts "hi"
   end
 
 end
