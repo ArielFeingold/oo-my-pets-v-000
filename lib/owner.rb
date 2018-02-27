@@ -6,14 +6,14 @@ class Owner
 
   def initialize(name)
     @name = name
-    save
   end
 
   def all
     @@all
   end
 
-  def save
+  def add_owner(name)
+    Owner.new(name)
     @@all << self
   end
 
