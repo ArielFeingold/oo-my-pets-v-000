@@ -23,12 +23,10 @@ class Owner
   end
 
   def species=(species)
+    owner=  Owner.new
     @species = species
   end
 
-  def species
-    @species
-  end
 
 
 end
