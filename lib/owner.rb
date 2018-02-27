@@ -21,5 +21,9 @@ class Owner
     @@all = []
   end
 
+  def species(species)
+
+  end
+
 
 end
