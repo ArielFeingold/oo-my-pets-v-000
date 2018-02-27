@@ -13,10 +13,10 @@ class Owner
     @@all
   end
 
-  def add_owner(name)
-    Owner.new(name)
-
-  end
+  # def add_owner(name)
+  #   Owner.new(name)
+  #
+  # end
 
 
 end
