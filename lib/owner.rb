@@ -22,10 +22,8 @@ class Owner
     @@all = []
   end
 
-  def self.species(species)
-    o = Self.new
-    o.species = species
-    o
+  def say_species
+    
   end
 
 
