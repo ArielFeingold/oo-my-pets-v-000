@@ -22,9 +22,10 @@ class Owner
     @@all = []
   end
 
-  def species(species)
-    owner = Owner.new
-    owner.species = species
+  def self.species(species)
+    o = Self.new
+    o.species = species
+    o
 
   end
 
