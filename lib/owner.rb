@@ -59,8 +59,8 @@ class Owner
     @pets = []
   end
 
-  def list_pets
-    puts "I have #{@pets[:fishes].length}"
+  def self.list_pets
+
   end
 
 end
