@@ -60,7 +60,7 @@ class Owner
   end
 
   def list_pets
-  binding.pry
+  return ""
   end
 
 end
