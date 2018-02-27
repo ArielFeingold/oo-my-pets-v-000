@@ -13,10 +13,13 @@ class Owner
     @@all
   end
 
-  # def add_owner(name)
-  #   Owner.new(name)
-  #
-  # end
+  def count
+    @@all.length
+  end
+
+  def reset_all
+    @@all = []
+  end
 
 
 end
