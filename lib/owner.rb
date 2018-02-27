@@ -24,7 +24,7 @@ class Owner
 
   def species
     owner = Owner.new(name)
-    @species = nil
+    @species = "joe"
   end
 
 
