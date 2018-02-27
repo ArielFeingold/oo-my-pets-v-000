@@ -22,9 +22,8 @@ class Owner
     @@all = []
   end
 
-  def species
-    owner = Owner.new(name)
-    @species = "human"
+  def species=(species)
+    @species = species
   end
 
 
