@@ -6,11 +6,14 @@ class Owner
 
   def initialize(name)
     @name = name
-    @@all << self
   end
 
   def all
     @@all
+  end
+
+  def save
+    @@all << self
   end
 
 
