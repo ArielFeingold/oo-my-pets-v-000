@@ -1,6 +1,6 @@
 class Owner
 
-  attr_accessor :name, :species
+  attr_accessor :name
 
   @@all = []
 
@@ -21,7 +21,7 @@ class Owner
     @@all = []
   end
 
-  def species(species)
+  def species
 
   end
 
